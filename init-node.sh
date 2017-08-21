@@ -13,11 +13,11 @@ modprobe overlay
 cp -f zanecloud.conf /etc/modules-load.d/zanecloud.conf
 
 rm -rf tmp && mkdir -p tmp && cd tmp
-wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/d349391/docker-1.11.1 -q  -O docker
-wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/d349391/docker-containerd -q
-wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/d349391/docker-containerd-ctr -q
-wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/d349391/docker-containerd-shim -q
-wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/d349391/docker-runc -q
+wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/97e6666/docker-1.11.1 -q  -O docker
+wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/97e6666/docker-containerd -q
+wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/97e6666/docker-containerd-ctr -q
+wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/97e6666/docker-containerd-shim -q
+wget http://zanecloud-docker.oss-cn-shanghai.aliyuncs.com/1.11.1/97e6666/docker-runc -q
 
 cd ..
 sudo chmod +x tmp/*

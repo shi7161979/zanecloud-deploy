@@ -3,7 +3,7 @@ version: '2'
 services:
  master:
   #image: registry.cn-hangzhou.aliyuncs.com/omega-reg/swarm:1.2.4
-  image: swarm:1.2.6
+  image: registry.cn-hangzhou.aliyuncs.com/zanecloud/swarm:1.2.7-ace135e
   restart: always
   network_mode: host
   pid: host

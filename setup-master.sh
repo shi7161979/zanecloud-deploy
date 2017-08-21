@@ -107,7 +107,7 @@ elif [[ ${TYPE} == "swarm" ]]; then
     bash -x plugins/metad/start.sh
     bash -x plugins/tunneld/start.sh
 
-    bash -x plugins/swarm/start.sh  master agent
+    bash -x plugins/swarm/start.sh
 
 elif [[ ${TYPE} == "kubernetes" ]]; then
     bash -x start-bootstrap.sh  etcd  dnsmasq flanneld consul-server  && \
